@@ -22,8 +22,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 375px;
-    height: 540px;
+    width: 250px;
+    height: 370px;
     border-radius: 20px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -31,7 +31,7 @@
 
 .image-area{
     width: 85%;
-    height: 60%;
+    height: 50%;
     display: flex;
     margin: 24px 0;
     justify-content: center;
@@ -46,7 +46,7 @@
 }
 
 .text-area{
-    width: 75%;
+    width: 85%;
     height: 24%;
     display: flex;
     flex-direction: column;
@@ -58,15 +58,14 @@
 
 .text-area h2{
     margin: 16px 0;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
     width: 24ch;
 }
 
 .text-area p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    color: var(--Grey);
 }
 
 .attribution {
